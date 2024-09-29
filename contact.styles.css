@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://megafurniture.sg/cdn/shop/articles/dark-vs-light-sofa-which-one-should-you-choose-megafurniture.jpg?v=1721303999') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+    /* Header Styles */
+    header {
+        background: rgba(0, 0, 0, 0.8); /* Darker background for better contrast */
+        padding: 15px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow for depth */
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        text-align: center;
+        color: #ff5e62;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 1.1rem;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover,
+    nav a.active {
+        color: #ff5e62;
+        border-bottom: 2px solid #ff5e62;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .social-icon {
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0 15px;
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .social-icon:hover {
+        color: #ff5e62;
+        transform: scale(1.1);
+    }
+
+    .whatsapp-icon:hover {
+        color: #25D366;
+    }
+
+    /* Hero Section */
+    .hero {
+        background: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+        color: #fff;
+        animation: fadeIn 1s ease-in-out; /* Subtle fade-in animation */
+    }
+
+    .hero h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #ff5e62;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+        margin: 20px 0;
+        line-height: 1.6;
+    }
+
+/* Contact Information */
+.contact-info {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.95); /* Light background for contrast */
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+}
+
+.contact-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff5e62;
+}
+
+.contact-info-item {
+    margin: 25px 0;
+    font-size: 1.3rem;
+}
+
+.contact-info-item i {
+    color: #ff5e62;
+    margin-right: 15px;
+}
+
+.contact-info-item a {
+    color: #ff5e62;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info-item a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff5e62;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.1rem;
+    color: #333;  /* Darker color for label text */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;  /* Light background color */
+    color: #333;  /* Darker text color */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999;  /* Placeholder text color */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #ff5e62;  /* Highlight border on focus */
+    background-color: #fff;  /* Brighter background on focus */
+}
+
+.contact-form button {
+    background-color: #ff5e62;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-form button:hover {
+    background-color: #d54b4b;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Furniture - Diksha Interiors</title>
+    <link rel="stylesheet" href="CustomFurnitureStyle.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Diksha Interiors Custom Furniture Gallery</h1>
+            
+            <div class="social-icons">
+                <a href="https://www.instagram.com/dikshainterior/" target="_blank" class="social-icon instagram-icon">
+                    <i class="fab fa-instagram"></i>
+                    <span>Follow us for more custom furniture ideas!</span>
+                </a>
+                <a href="https://wa.me/7678065105" target="_blank" class="social-icon whatsapp-icon">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Chat with us!</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="Image/custom_bed.jpg" alt="Custom Bed Design">
+                <p>Elegant Custom Bed Design</p>
+                <p class="quote-name">"Crafted for your dream bedroom"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_sofa.jpg" alt="Custom Sofa Set">
+                <p>Bespoke Sofa Set with Premium Fabric</p>
+                <p class="quote-name">"Unwind in style and comfort"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_tv_unit.jpg" alt="Custom TV Unit">
+                <p>Modern TV Unit with Smart Storage</p>
+                <p class="quote-name">"Function meets design"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_dining_table.jpg" alt="Custom Dining Table">
+                <p>Stylish Wooden Dining Table Set</p>
+                <p class="quote-name">"Bringing families together"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_wardrobe.jpg" alt="Custom Wardrobe Design">
+                <p>Custom Wardrobe with Sliding Doors</p>
+                <p class="quote-name">"Where style meets storage"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_chair.jpg" alt="Custom Lounge Chair">
+                <p>Ergonomic Lounge Chair</p>
+                <p class="quote-name">"Comfort redefined"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_bar_unit.jpg" alt="Custom Bar Unit">
+                <p>Custom Bar Unit with Glass Shelving</p>
+                <p class="quote-name">"Elevate your hosting game"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_office_desk.jpg" alt="Custom Office Desk">
+                <p>Minimalist Office Desk with Storage</p>
+                <p class="quote-name">"Productivity meets design"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_balcony_furniture.jpg" alt="Custom Balcony Set">
+                <p>Compact Balcony Furniture Set</p>
+                <p class="quote-name">"Relaxation at its finest"</p> <!-- Updated quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/custom_bathroom_storage.jpg" alt="Bathroom Storage Unit">
+                <p>Bathroom Storage Unit with Shelves</p>
+                <p class="quote-name">"Organized and elegant"</p> <!-- Updated quote name -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section">
+        <h2>What Our Custom Furniture Clients Say</h2>
+        <div class="testimonial">
+            <p>"Diksha Interiors crafted a unique custom bed that perfectly fits our bedroom's style. Beautiful work!"</p>
+            <p class="quote-name">- Residential Client</p>
+        </div>
+        <div class="testimonial">
+            <p>"Their custom office furniture transformed our workspace! Highly professional and detailed."</p>
+            <p class="quote-name">- Commercial Client</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>For custom furniture inquiries, feel free to reach out to us:</p>     
+        <form action="https://formspree.io/f/mwperpqq" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>  
+
+    <div class="back-button-container">
+        <a href="index.html" class="back-to-index">Back to Home</a>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top">Back to Top</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Diksha Interiors. All rights reserved.</p>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> 7678065105</p>
+            <p><i class="fas fa-envelope"></i> infodikshainterior@gmail.com</p>
+        </div>
+    </footer>
+
+    <script>
+        // Back to Top button functionality
+        const backToTopButton = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+</html>
