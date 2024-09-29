@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Project - Diksha Interiors</title>
+    <link rel="stylesheet" href="Commercial Project style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Diksha Interiors Commercial Gallery</h1>
+            
+            <div class="social-icons">
+                <a href="https://www.instagram.com/dikshainterior/" target="_blank" class="social-icon instagram-icon">
+                    <i class="fab fa-instagram"></i>
+                    <span>Follow us for more commercial projects!</span>
+                </a>
+                <a href="https://wa.me/7678065105" target="_blank" class="social-icon whatsapp-icon">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Chat with us!</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="Image\Elegant Office Interior Design.webp" alt="Office Space 1">
+                <p>Elegant Office Interior Design</p>
+                <p class="quote-name">- Office Space</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image\Meeting Room.jpg" alt="Conference Room">
+                <p>Spacious Conference Room Design</p>
+                <p class="quote-name">- Conference Room</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/reception_area.jpg" alt="Reception Area">
+                <p>Modern Reception Area</p>
+                <p class="quote-name">- Reception</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/office-lobby.jpg" alt="Office Lobby">
+                <p>Stylish Office Lobby Design</p>
+                <p class="quote-name">- Lobby</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/meeting_room.jpg" alt="Meeting Room">
+                <p>Private Meeting Room</p>
+                <p class="quote-name">- Meeting Room</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/office_cafeteria.jpg" alt="Office Cafeteria">
+                <p>Chic Office Cafeteria</p>
+                <p class="quote-name">- Cafeteria</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/balcony-design-with-cosy-work-station.jpg" alt="Workstation">
+                <p>Cozy Office Workstation</p>
+                <p class="quote-name">- Workstation</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/balcony-design-with-smart-bar-unit.jpg" alt="Office Balcony Bar">
+                <p>Smart Office Balcony Bar Unit</p>
+                <p class="quote-name">- Office Balcony</p> <!-- Updated Quote -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image\bathroom_residental.jpg" alt="Bathroom">
+                <p>Luxury Office Bathroom</p> <!-- Updated Description -->
+                <p class="quote-name">- Bathroom</p> <!-- Updated Quote -->
+            </div>
+            
+            <div class="gallery-item">
+                <img src="Image\batroom.jpg" alt="Bathroom with Balcony Bar">
+                <p>Modern Office Bathroom with Balcony Bar</p> <!-- Updated Description -->
+                <p class="quote-name">- Bathroom</p> <!-- Updated Quote -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section">
+        <h2>What Our Commercial Clients Say</h2>
+        <div class="testimonial">
+            <p>"Diksha Interiors completely transformed our office into a modern, efficient workspace!"</p>
+            <p class="quote-name">- Corporate Client</p>
+        </div>
+        <div class="testimonial">
+            <p>"Their design concepts brought our reception area to life. Highly recommended!"</p>
+            <p class="quote-name">- Business Client</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>For commercial design inquiries, feel free to reach out to us:</p>     
+        <form action="https://formspree.io/f/mwperpqq" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>  
+
+    <div class="back-button-container">
+        <a href="index.html" class="back-to-index">Back to Home</a>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top">Back to Top</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Diksha Interiors. All rights reserved.</p>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> 7678065105</p>
+            <p><i class="fas fa-envelope"></i> infodikshainterior@gmail.com</p>
+        </div>
+    </footer>
+
+    <script>
+        // Back to Top button functionality
+        const backToTopButton = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+</html>

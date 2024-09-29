@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Diksha Interiors</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="counter-styles.css"> <!-- Separate CSS for Counter Section -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
 
     <!-- Header -->
@@ -47,22 +50,14 @@
         <h2>About Us</h2>
         <p>At Diksha Interiors, we specialize in creating unique and personalized spaces that reflect your style and meet your needs.</p>
         <div class="about-content">
-            <!-- Company Mission -->
             <div class="about-item">
                 <h3>Our Mission</h3>
                 <p>Our mission is to transform spaces into beautiful, functional, and inspiring environments that enhance the quality of life for our clients.</p>
             </div>
-            <!-- Company Vision -->
             <div class="about-item">
                 <h3>Our Vision</h3>
                 <p>We envision a world where every space, whether residential or commercial, is a reflection of its inhabitants' unique personalities and aspirations.</p>
             </div>
-            <!-- Company Values -->
-            <div class="about-item">
-                <h3>Our Values</h3>
-                <p>We are committed to integrity, creativity, and excellence in every project we undertake. Our values guide us in delivering the highest quality of service to our clients.</p>
-            </div>
-            <!-- Team Introduction -->
             <div class="about-item">
                 <h3>Meet Our Team</h3>
                 <p>Our team of experienced designers, architects, and craftsmen work collaboratively to bring your vision to life. We take pride in our attention to detail and our commitment to customer satisfaction.</p>
@@ -75,42 +70,154 @@
         <h2>Our Portfolio</h2>
         <div class="portfolio-grid">
             <div class="portfolio-item">
-                <img src="https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/HomeInteriorsRecentWork/Thumbnail/02VikramJagtap_3BHK.jpg" alt="Project 1">
-                <h3>Residential Project</h3>
-                <p>Modern living room design with bespoke furniture and lighting.</p>
+                <a href="Residential project.html"> <!-- Link to the new page -->
+                    <img src="Image/affordable-interior-designers-bangalore-living-room-with-pooja-unit.jpg" alt="Project 1">
+                    <h3>Residential Project</h3>
+                    <p>Modern living room design with bespoke furniture and lighting.</p>
+                    <button class="portfolio-button">View Project</button> <!-- Clickable button -->
+                </a>
+            </div>
+
+              <div class="portfolio-item">
+                <a href="commerical.html"> <!-- Link to the new page -->
+                    <img src="Image/Commerical_home-interior-designers-mumbai-wardrobe-study-pullout.jpg" alt="Project 2">
+                    <h3>Commercial Project</h3>
+                    <p>Stylish and functional office space design for a tech company.</p>
+                </a>
             </div>
             <div class="portfolio-item">
-                <img src="Image\IMG-20240827-WA0006.jpg" alt="Project 2">
-                <h3>Commercial Project</h3>
-                <p>Stylish and functional office space design for a tech company.</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="Image\custom furniture.jpg" alt="Project 3">
-                <h3>Custom Furniture</h3>
-                <p>Handcrafted furniture pieces designed to fit your space perfectly.</p>
+                <a href="Custom.html"> <!-- Link to the new page -->
+                    <img src="Image/home-interior-designers-bangalore-compact-study-cum-tv-unit.jpg" alt="Project 3">
+                    <h3>Custom Furniture</h3>
+                    <p>Handcrafted furniture pieces designed to fit your space perfectly.</p>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Services Highlights -->
-    <section id="services" class="services-section">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-item">
-                <i class="fas fa-home"></i>
-                <h3>Residential Design</h3>
-                <p>Create a home that's not just beautiful, but truly yours.</p>
+    <!-- Modular Kitchen Section -->
+    <section class="modular-kitchen-section">
+        <h2>Modular Kitchen</h2>
+        <div class="modular-kitchen-grid">
+            <div class="modular-kitchen-item">
+                <img src="Image\A kitchen with breakfast counter.jpg" alt="Kitchen with breakfast counter">
+                <div class="overlay">
+                    <h3>Residential Design</h3>
+                    <p>A modern kitchen featuring a stylish breakfast counter, perfect for casual dining.</p>
+                </div>
             </div>
-            <div class="service-item">
-                <i class="fas fa-briefcase"></i>
-                <h3>Commercial Design</h3>
-                <p>Innovative solutions for stylish and functional workspaces.</p>
+            <div class="modular-kitchen-item">
+                <img src="Image\Kitchen with a space saving janitor unit.jpg" alt="Space-saving kitchen">
+                <div class="overlay">
+                    <h3>Kitchen with Space-saving Janitor Unit</h3>
+                    <p>A sleek kitchen design with a space-saving janitor unit for optimized storage.</p>
+                </div>
             </div>
-            <div class="service-item">
-                <i class="fas fa-couch"></i>
-                <h3>Custom Furniture</h3>
-                <p>One-of-a-kind pieces designed to fit your space perfectly.</p>
+            <div class="modular-kitchen-item">
+                <img src="Image\kitchen with a Unitlity area.jpg" alt="Kitchen with utility area">
+                <div class="overlay">
+                    <h3>Kitchen with Utility Room</h3>
+                    <p>Designed with a utility area for laundry and additional storage.</p>
+                </div>
             </div>
+        </div>
+    </section>
+    
+<!-- Hall Section -->
+<section class="hall-section">
+    <h2>HALL DESIGNS</h2>
+    <div class="hall-grid">
+        <div class="hall-item">
+            <img src="Image\An Industrial Living Room In Sooting Tones.jpg" alt="Elegant Hall">
+            <div class="overlay">
+                <h3>Elegant Hall</h3>
+                <p>Showcasing a perfect blend of sophistication and comfort, ideal for gatherings.</p>
+            </div>
+        </div>
+        <div class="hall-item">
+            <img src="Image\2 an Sooting Tones.jpg" alt="Cozy Hall">
+            <div class="overlay">
+                <h3>Cozy Hall</h3>
+                <p>A warm and inviting space designed for relaxation and family time.</p>
+            </div>
+        </div>
+        <div class="hall-item">
+            <img src="Image\3 Sooting Image.jpg" alt="Modern Hall">
+            <div class="overlay">
+                <h3>Modern Hall</h3>
+                <p>Featuring sleek lines and contemporary design elements for a stylish ambiance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bedroom-section">
+    <h2>BEDROOM</h2>
+    <div class="bedroom-grid">
+        <div class="bedroom-item">
+            <img src="Image\A brown bedroom.jpg" alt="Modern Bedroom Design">
+            <div class="overlay">
+                <h3>Modern Bedroom</h3>
+                <p>This bedroom features a minimalist design with soft colors and natural light.</p>
+            </div>
+        </div>
+        <div class="bedroom-item">
+            <img src="Image\A pink And olive green bedroom.jpg" alt="Cozy Bedroom">
+            <div class="overlay">
+                <h3>Cozy Bedroom</h3>
+                <p>Comfortable bedding and warm accents create a perfect relaxing space.</p>
+            </div>
+        </div>
+        <div class="bedroom-item">
+            <img src="Image\A Spacious Badrrom.jpg" alt="Luxury Bedroom">
+            <div class="overlay">
+                <h3>Luxury Bedroom</h3>
+                <p>This luxurious bedroom features elegant furniture and rich textures.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bathroom-section">
+    <h2>BATHROOM DESIGNS</h2>
+    <div class="bathroom-grid">
+        <div class="bathroom-item">
+            <img src="Image\small-bathroom-design-with-slate-tiles-space-saving-vanity-unit.jpg" alt="Elegant Bathroom">
+            <div class="overlay">
+                <h3>Elegant Bathroom</h3>
+                <p>This design features sleek fixtures and a spacious layout.</p>
+            </div>
+        </div>
+        <div class="bathroom-item">
+            <img src="Image\bathroom-designs-in-minimalistic-style-bathroom-in-grey-tones-wood-finishes.jpg" alt="Modern Bathroom">
+            <div class="overlay">
+                <h3>Modern Bathroom</h3>
+                <p>Incorporating contemporary materials for a stylish look.</p>
+            </div>
+        </div>
+        <div class="bathroom-item">
+            <img src="Image\modern-bathroom-design-in-grey-and-white.jpg" alt="Cozy Bathroom">
+            <div class="overlay">
+                <h3>Cozy Bathroom</h3>
+                <p>A perfect blend of comfort and elegance for your home.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Completed Counter Section -->
+    <section class="counter-section">
+        <div class="counter-box">
+            <h3 class="counter" id="project-counter" data-target="350">0</h3>
+            <p class="counter-description">Projects Completed</p>
+        </div>
+        <div class="counter-box">
+            <h3 class="counter" id="client-counter" data-target="100">0</h3>
+            <p class="counter-description">Happy Clients</p>
+        </div>
+        <div class="counter-box">
+            <h3 class="counter" id="experience-counter" data-target="10">0</h3>
+            <p class="counter-description">Years of Experience</p>
         </div>
     </section>
 
@@ -134,12 +241,12 @@
             <div class="blog-post">
                 <h3>Interior Design Trends 2024</h3>
                 <p>Explore the latest trends in interior design for the coming year.</p>
-                <a href="#" class="cta-button">Read More</a>
+                <a href="https://www.architecturaldigest.com/story/interior-design-trends-2024" target="_blank" class="cta-button">Read More</a>
             </div>
             <div class="blog-post">
                 <h3>How to Choose the Right Furniture</h3>
                 <p>Tips on selecting furniture that fits your style and space.</p>
-                <a href="#" class="cta-button">Read More</a>
+                <a href="https://www.houzz.com/magazine/how-to-choose-the-right-furniture-stsetivw-vs~12345678" target="_blank" class="cta-button">Read More</a>
             </div>
         </div>
     </section>
@@ -155,6 +262,31 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Counter Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.counter');
+            const speed = 200;
+
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText;
+                    const increment = target / speed;
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + increment);
+                        setTimeout(updateCount, 50);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+
+                updateCount();
+            });
+        });
+    </script>
+
 </body>
+
 </html>

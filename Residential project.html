@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential Project - Diksha Interiors</title>
+    <link rel="stylesheet" href="Residential Project style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Diksha Interiors Gallery</h1>
+            
+            <div class="social-icons">
+                <a href="https://www.instagram.com/dikshainterior/" target="_blank" class="social-icon instagram-icon">
+                    <i class="fab fa-instagram"></i>
+                    <span>Follow us for more inspirations!</span>
+                </a>
+                <a href="https://wa.me/7678065105" target="_blank" class="social-icon whatsapp-icon">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Chat with us!</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="Image/Bedroom.jpg" alt="Bedroom 1">
+                <p>Elegant Bedroom Design</p>
+                <p class="quote-name">- Bedroom</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/bedroom_3bhk.jpg" alt="Bedroom 2">
+                <p>Elegant Bedroom with Space</p>
+                <p class="quote-name">- Bedroom</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/bedroom-design-tv-unit-wall-design-white-bangalore-mumbai-hyderabad.jpg" alt="TV Unit 3">
+                <p>Modern TV Unit Wall Design</p>
+                <p class="quote-name">- TV Unit</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/tv-unit-with-wooden-panel-background-in-3-bhk-house.jpg" alt="TV Unit 4">
+                <p>Stylish TV Unit with Wooden Panel</p>
+                <p class="quote-name">- TV Unit</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/pooja room.jpg" alt="Pooja room Design 4">
+                <p>Peaceful Pooja Room</p>
+                <p class="quote-name">- Pooja Room</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/Puja room.jpg" alt="Pooja room Design 4">
+                <p>Serene Pooja Space</p>
+                <p class="quote-name">- Pooja Room</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/balcony-design-with-cosy-work-station.jpg" alt="Balcony with Bar 4">
+                <p>Cozy Balcony Workspace</p>
+                <p class="quote-name">- Balcony</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image/balcony-design-with-smart-bar-unit.jpg" alt="Balcony with Work station 4">
+                <p>Smart Balcony Bar Unit</p>
+                <p class="quote-name">- Balcony</p> <!-- Quote name -->
+            </div>
+            <div class="gallery-item">
+                <img src="Image\bathroom Residental.jpg" alt="Bathroom">
+                <p>Luxury Bathroom Design</p> <!-- Updated description -->
+                <p class="quote-name">- Bathroom</p> <!-- Updated quote -->
+            </div>
+            
+            <div class="gallery-item">
+                <img src="Image\batroom.jpg" alt="Bathroom">
+                <p>Modern Bathroom with Balcony Bar Unit</p> <!-- Updated description -->
+                <p class="quote-name">- Bathroom</p> <!-- Updated quote -->
+            </div>
+            
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Diksha Interiors transformed my home into a dream space! Highly recommend!"</p>
+            <p class="quote-name">- Client Name</p>
+        </div>
+        <div class="testimonial">
+            <p>"Amazing attention to detail and creativity. Love my new living room!"</p>
+            <p class="quote-name">- Another Client</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us:</p>     
+        <form action="https://formspree.io/f/mwperpqq" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>  
+
+    <div class="back-button-container">
+        <a href="index.html" class="back-to-index">Back to Home</a>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top">Back to Top</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Diksha Interiors. All rights reserved.</p>
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> 7678065105</p>
+            <p><i class="fas fa-envelope"></i> infodikshainterior@gmail.com</p>
+        </div>
+    </footer>
+
+    <script>
+        // Back to Top button functionality
+        const backToTopButton = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+</html>
